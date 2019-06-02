@@ -14,7 +14,7 @@ final class Utils {
 
     static <T> void print(T[] array) {
         int len = array.length;
-        for (int i = 0; i < len - 1; i++) {
+        for (int i = 0; i < len; i++) {
             System.out.print(array[i] + " ");
         }
         System.out.println();
